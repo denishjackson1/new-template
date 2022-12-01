@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.carousel {
+	background-color: #2996FD;
+	overflow: hidden;
+	width: 100% !important;
+
+}
+
+.overall {
+	width: 97%;
+	overflow: hidden;
+	float: right;
+	clear: both;
+}
+
+.carousel h1 {
+	text-align: center;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.card-carousel {
+	list-style: none;
+	transition: left 2s;
+	-webkit-transition: left 2s;
+	-moz-transition: left 2s;
+	-o-transition: lef 2s;
+}
+
+.fullCard {
+	transition: all 0.75s ease;
+	opacity: 0.5;
+	transform: scale(0.85) translateZ(50px);
+	border-radius: 30px;
+	-webkit-box-reflect: below 0px linear-gradient(transparent, transparent, #0002);
+	-moz-box-shadow: 5px 5px 5px rgba(34, 34, 34, 0.6);
+	-webkit-box-shadow: 5px 5px 5px rgba(34, 34, 34, 0.6);
+	box-shadow: 5px 5px 5px rgba(34, 34, 34, 0.6);
+	overflow-x: visible;
+}
+
+.fullCard img {
+	height: 250px;
+	width: 300px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
+
+.fullCard .card-dwn {
+	height: 240px;
+	width: 300px;
+	background: #ffffff;
+	padding: 30px 20px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+
+.fullCard h2,
+.fullCard p {
+	background: #ffffff;
+	color: #000000;
+}
+
+.fullCard h2 {
+	text-align: center;
+}
+
+.fullCard.active {
+	opacity: 1;
+	transform: scale(0.9) translateX(0);
+	box-shadow: 0 30px 30px rgba(0, 0, 0, 0.336);
+}
+
+/* -------------buttons styling--------------- */
+
+.carousel .hi-prev,
+.carousel .hi-next {
+	position: absolute;
+	top: 50%;
+	left: 30px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #05437e;
+	color: #ffffff;
+	box-shadow: 0px 0px 3px 4px rgba(108, 157, 248, 0.383);
+	cursor: pointer;
+	transition: all 0.7s;
+	font-size: 28px;
+	font-weight: bold;
+	opacity: 0.5;
+	z-index: 99;
+}
+
+.carousel .hi-next:hover,
+.carousel .hi-prev:hover {
+	opacity: 1;
+	background-color: white;
+	color: black;
+	box-shadow: 0px 0px 3px 4px rgba(214, 209, 209, 0.383);
+}
+
+.carousel .hi-prev {
+	top: 40%;
+}
+
+.carousel .hi-prev::before {
+	content: '<';
+}
+
+.carousel .hi-next::before {
+	content: '>';
+}
+
+/* ---------------mobile responsiveness------------ */
+@media screen and (max-width: 760px) {
+	.carousel h1 {
+		font-size: 2rem;
+	}
+
+	.overall {
+		display: none;
+	}
+
+	.carousel .hi-prev,
+	.carousel .hi-next {
+		display: none;
+	}
+}

@@ -1,0 +1,12 @@
+[
+    {
+        "sn"  : 1,
+        "thriftCode" : 34,
+        "thriftName" : "Ajosu",
+        "tenor" : 12,
+        "status" : 1,
+        "imageUrl" : "/assets/images/thrifts/1",
+        "addDate": "12/10/2020"
+    }
+
+]

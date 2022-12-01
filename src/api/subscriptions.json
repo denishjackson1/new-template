@@ -1,0 +1,13 @@
+[
+    {
+        "subscriptionCode" : 2,
+        "subscriptionDate" : "12/5/2020",
+        "userAccount" : 231,
+        "thriftCode": 34,
+        "startDate": "12/10/2020",
+        "endDate" : "12/10/2021",
+        "amount" : 300,
+        "addDate" : "10/10/2020"
+        
+    }
+]

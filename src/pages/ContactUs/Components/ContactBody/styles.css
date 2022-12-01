@@ -1,0 +1,145 @@
+.contact-container {
+	padding: 60px 150px;
+}
+
+.contact-container .mail-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.contact-container .mail-wrapper img {
+	height: 312px;
+	max-width: 470px;
+	border-radius: 20px;
+}
+
+.contact-container .mail-wrapper h1 {
+	font-size: 30px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+.contact-container .mail-wrapper h3 {
+	font-size: 18px;
+	color: #3a3838;
+	margin: 0px;
+}
+
+.contact-container .message-wrapper {
+	border: 1px solid #d6d8e5;
+	border-radius: 20px;
+  padding: 60px 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-container .message-wrapper form .gap {
+  width: 30px;
+}
+
+.contact-container .message-wrapper form label {
+	color: #75787e;
+	font-size: 20px;
+}
+
+.contact-container .message-wrapper form label input {
+	border: 1px solid #d6d8e5;
+	width: 100%;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.contact-container .message-wrapper form label textarea {
+	border: 1px solid #d6d8e5;
+	width: 100%;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.contact-container .message-wrapper form label #msg {
+	height: 200px;
+}
+
+.contact-container .message-wrapper form button {
+	width: 285px;
+	height: 50px;
+	background: #2996fd;
+	border-radius: 10px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: right;
+	clear: both;
+}
+
+.contact-container .message-wrapper form button:hover {
+	background: #0d5ca7;
+}
+
+.contact-container .bubble-anime img {
+	height: 50px;
+}
+
+/* -----------------mobile responsiveness------------ */
+@media screen and (max-width: 720px) {
+	.contact-container {
+		padding: 40px 30px;
+	}
+
+	.contact-container .mail-wrapper img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.contact-container .mail-wrapper h1 {
+		font-size: 24px;
+	}
+
+	.contact-container .mail-wrapper h3 {
+		font-size: 14px;
+	}
+
+	.contact-container .message-wrapper {
+		width: 100%;
+		padding: 30px 20px;
+		margin: 20px 0 0 0;
+	}
+
+	.contact-container .message-wrapper form .inputFlex label {
+		display: block;
+		width: 100%;
+		margin-bottom: 0px;
+	}
+
+	.contact-container .message-wrapper form .inputFlex label:nth-child(2) {
+		margin-top: 20px;
+  }
+  
+  .contact-container .message-wrapper form .gap {
+    width: 0px;
+  }
+
+	.contact-container .message-wrapper form label {
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	.contact-container .message-wrapper form label input {
+		padding: 10px;
+	}
+
+	.contact-container .message-wrapper form label #msg {
+		height: 100px;
+	}
+
+	.contact-container .message-wrapper form button {
+		width: 100%;
+		height: 40px;
+	}
+
+	.contact-container .bubble-anime {
+		display: none;
+	}
+}

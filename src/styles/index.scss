@@ -1,0 +1,124 @@
+@import 'variables';
+* {
+  outline: none;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+  transition: 0.5s all;
+}
+body {
+  background-image: url("../pages/Home/assets/thriftbg1.svg"), url("../pages/Home/assets/thriftbg2.svg");
+  background-repeat: no-repeat;
+  background-position: top 0% left 15%, bottom 0% right 10%;
+  font-family: $font-family-1, sans-serif;
+}
+*,
+::after,
+::before,
+html,
+body {
+  box-sizing: border-box;
+  margin: 1;
+  padding: 1;
+  font-family: $font-family-1;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+a,
+span,
+p {
+  line-height: 29px;
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+input,
+textarea,
+button {
+  border: none;
+}
+input {
+  ::-webkit-outer-spin-button,
+  ::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  /*Firefox*/
+  &[type='number'] {
+    -moz-appearance: textfield;
+  }
+}
+button {
+  background: none;
+  &::-moz-focus-inner {
+    border: none;
+  }
+  cursor: pointer;
+}
+form {
+  width: 100%;
+}
+h1,
+h2,
+h3 {
+  line-height: 42px;
+}
+h4,
+h5,
+h6 {
+  line-height: 24px;
+}
+
+img {
+  height: auto;
+  width: 100%;
+  border-radius: inherit;
+}
+
+// table {
+//   height: 100%;
+//   overflow-y: auto;
+//   transition: 0.2s;
+//   width: 100%;
+//   text-align: left;
+//   border-radius: 5px;
+//   border-collapse: collapse;
+//   display: table;
+//   box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.05);
+//   backdrop-filter: blur(250px);
+//   thead {
+//     // background: $primary-color;
+//     > tr td {
+//       text-transform: capitalize;
+//       color: $white;
+//       font-size: 14px;
+//       font-weight: 500;
+//       text-align: center;
+//     }
+//   }
+
+//   tbody tr {
+//     // &:nth-child(odd) {
+//     //   // background: $tableLight;
+//     // }
+//     td {
+//       padding: 15px;
+//       // color: $gray-color-light;
+//       font-size: 14px;
+//       text-align: center;
+//     }
+//   }
+//   tbody tr:last-child td {
+//     border-bottom: none !important;
+//   }
+// }
+.nav {
+  text-decoration: none !important;
+  // text-underline-offset: none;
+}

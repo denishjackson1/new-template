@@ -1,0 +1,11 @@
+[
+    {
+        "sn": 89,
+        "thriftCode":34,
+        "accountNumber" : 5678875,
+        "transactionRef" : "er452343241",
+        "transactionDate" : "12/10/2020",
+        "subscriptionCode" : 12,       
+        "Amount":400
+    }
+]

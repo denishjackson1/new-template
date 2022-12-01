@@ -1,0 +1,20 @@
+
+{
+    "accountNunmber" : 5678875,
+    "firstName" : "Ajo",
+    "middleName" : "Abdul",
+    "lastName"  : "Sola",
+    "email" :   "ajo@gmail.com",
+    "phoneNumber"   :   "23448764542",
+    "verifyCode": 2345,
+    "password" : "3afd34fwdef3e23wdwqd23342",
+    "token" : "453232erdwer23duil=",
+    "gender" : "Male",
+    "dateOfBirth": "12/09/1985",
+    "bvn"  :    "1244576",
+    "active": 1,
+    "verified":1,
+    "address" : "no2 sd street, Lagos",
+    "lastLogin" : "12/10/2020",
+    "addDate": "12/10/2020"
+}
